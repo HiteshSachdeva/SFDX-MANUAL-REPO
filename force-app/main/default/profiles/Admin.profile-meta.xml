@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Admin</fullName>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <applicationVisibilities>
         <application>cmcSf__CMC_SFDX</application>
         <default>false</default>
@@ -13933,6 +13933,90 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__Copado_Cloud_Regional_Instances__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__Copado_Setting__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__Copado_Smart_Help__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__Data_Template_Setup__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__Default_Persona_Permission__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__Default_Persona__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__ExtensionKeyValueSetting__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__ExtensionPackageConfiguration__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__Feature_Toggle_Group__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__Feature_Toggle_Requirement__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__Feature_Toggle__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__MC_Custom_Job_Step__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__MC_Notification__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__MultiCloudAutomation__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__Quality_Gate_Action__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__Quality_Gate_Test_From__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__StandardResources__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__Streaming_Setting__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__TestTool__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__TestType__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>copado__UISection__mdt</name>
+    </customMetadataTypeAccesses>
     <customPermissions>
         <enabled>true</enabled>
         <name>cmcSf__AccessShowReadyToPromoteOnlyToggleFeature</name>
@@ -14069,90 +14153,6 @@
         <enabled>true</enabled>
         <name>copado__Skip_Continuous_Delivery_Rules</name>
     </customPermissions>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Copado_Cloud_Regional_Instances__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Copado_Setting__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Copado_Smart_Help__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Data_Template_Setup__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Default_Persona_Permission__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Default_Persona__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__ExtensionKeyValueSetting__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__ExtensionPackageConfiguration__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Feature_Toggle_Group__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Feature_Toggle_Requirement__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Feature_Toggle__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__MC_Custom_Job_Step__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__MC_Notification__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__MultiCloudAutomation__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Quality_Gate_Action__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Quality_Gate_Test_From__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__StandardResources__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Streaming_Setting__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__TestTool__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__TestType__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__UISection__mdt</name>
-    </customMetadataTypeAccesses>
     <customSettingAccesses>
         <enabled>true</enabled>
         <name>copado__Automation_Template_For_CLI__c</name>
@@ -14181,6 +14181,7 @@
         <enabled>true</enabled>
         <name>copadoconnect__Additional_Parameter__c</name>
     </customSettingAccesses>
+    <description n1:nil="true" />
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
@@ -26564,6 +26565,9 @@
         <layout>copado__Deployment_Task__c-copado__Deployment Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>copado__Deployment__c-copado__Deployment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>copado__Deployment__c-copado__Advanced %28Multi Step%29</layout>
         <recordType>copado__Deployment__c.copado__Advanced_multi_step</recordType>
     </layoutAssignments>
@@ -26574,9 +26578,6 @@
     <layoutAssignments>
         <layout>copado__Deployment__c-copado__Data Deployment</layout>
         <recordType>copado__Deployment__c.copado__Data_Deployment</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Deployment__c-copado__Deployment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>copado__Deployment__c-copado__Metadata Deployment</layout>
@@ -26801,12 +26802,12 @@
         <layout>copado__Selenium_Test_Run__c-copado__Salesforce Selenium Test Run Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>copado__Selenium_Test_Run__c-copado__Salesforce Selenium Test Run Layout</layout>
-        <recordType>copado__Selenium_Test_Run__c.copado__Salesforce</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>copado__Selenium_Test_Run__c-copado__Web App Selenium Test Run Layout</layout>
         <recordType>copado__Selenium_Test_Run__c.copado__Generic_Web_Application</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Run__c-copado__Salesforce Selenium Test Run Layout</layout>
+        <recordType>copado__Selenium_Test_Run__c.copado__Salesforce</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>copado__Selenium_Test_Suite__c-copado__Selenium Test Suite Layout</layout>
@@ -26971,6 +26972,7 @@
     <layoutAssignments>
         <layout>copadoconnect__ObjectMapping__c-copadoconnect__Object Mapping Layout</layout>
     </layoutAssignments>
+    <loginHours n1:nil="true" />
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -40163,10 +40165,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-OmniSupervisor</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-OmniSupervisorLightning</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -44893,6 +44891,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>PlatformWebIdeUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>PrivacyDataAccess</name>
     </userPermissions>
     <userPermissions>
@@ -45002,6 +45004,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>UseOmnichannelInventoryAPIs</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseOrderManagementSetupAPIs</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -45118,6 +45124,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetupAuditTrail</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
